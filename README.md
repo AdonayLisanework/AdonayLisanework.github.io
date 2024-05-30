@@ -4,6 +4,7 @@
 
 - <b> Simple Java Projects </b>
   - [Point Manipulation](https://github.com/AdonayLisanework/Point-Manipulation-Program)
+  - [Calculator Program with GUI using the Swing Library](https://github.com/AdonayLisanework/Calctulator-App)
 
 <h2>📺 Popular YouTube Videos</h2>
 
