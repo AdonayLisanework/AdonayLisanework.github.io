@@ -1,0 +1,97 @@
+<!-- Adonay Lisanework COSC 484 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Extra Credit</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        } /* makes the gradient background cover the entire page */
+
+        body {
+            background: linear-gradient(#dbeafe, #0caaff);
+            font-family: Arial, sans-serif;
+        }
+
+        /* container to hold image + text side by side */
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-items: space-between;
+            /* aligns items at the top */
+            gap: 30px;
+            /* spacing between image and text */
+            margin: 20px;
+        }
+
+
+        .img-section img {
+            border: 4px solid green;
+            border-radius: 15px;
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+            width: 200px;
+        }
+
+        .img-section img:hover {
+            transform: scale(1.05);
+        }
+
+        .about-section {
+            max-width: 600px;
+            /* keeps text from stretching too wide */
+        }
+
+        p,
+        h3,
+        li {
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- image on the left -->
+        <div class="img-section">
+            <img src="IMG_7948.JPG" alt="Image of Adonay" />
+        </div>
+
+        <!-- text on the right -->
+        <div class="about-section">
+            <h3>About</h3>
+            <p> I am a senior CS student at Towson University with an interest in UX design and frontend development.
+                I'm currently developing a website for my organization <em>Money & Minorities</em> which utilizes AI to
+                give users personalized advice, budget expenses, and expense management. In addition, the platform
+                features learning modules that promote financial literacy through interactive online games.
+            </p>
+
+            <h3><em>Relevant Courses Taken</em></h3>
+            <ul>
+                <li>COSC 412: Software Engineering</li>
+                <li>COSC 290: Principles of Computer Organization</li>
+                <li>COSC 336: Data Structures/Algorithm Analysis</li>
+                <li>COSC 237: Intro to Computer Science II</li>
+                <li>COSC 236: Intro to Computer Science I</li>
+                <li>COSC 109: Computers and Creativity</li>
+            </ul>
+
+            <h3><em>Courses I'm Currently Taking</em></h3>
+            <ul>
+                <li>COSC 350: Data Communications and Networking</li>
+                <li>COSC 435: Mobile Application Development</li>
+                <li>COSC 457: Database Management Systems</li>
+                <li>COSC 484: Web-Based Programming</li>
+            </ul>
+
+            <h3><em>Info</em></h3>
+            <a href="Adonay Lisanework Resume.pdf">Resume</a>
+            <a href="https://github.com/adonaylisanework" target="_blank">GitHub</a>
+            <a href="mailto:adonaylisanework@gmail.com">Email</a>
+        </div>
+    </div>
+</body>
+
+</html>
